@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#quiz").submit(function(event){
-    event.preventDefault();
+    event.preventDefault(); 
 
     const quest1 = parseInt($('input[name="q1"]:checked').val());
     const quest2 = parseInt($('input[name="q2"]:checked').val());
@@ -29,5 +29,5 @@ $(document).ready(function() {
       $("#js").show();
     }
 });
-})
+});
 

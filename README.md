@@ -6,7 +6,7 @@
 
 ## Description
 
-This webpage is designed and coded to ask a user some questions about themselves, their learning style, and goals within the coding world. Through a series of 9 questions it evaluates the users responses by assigning a corresponding value for each language to each response. Then through JavaScript it parses these values as numbers and adds the total together. Then by the dividing the difference between the lowest possible total and the highest possible total by three, it provides a result based on the input total according to three different ranges correllary to the high, middle, low of the individual inputs. 
+This webpage is designed and coded to ask a user some questions about themselves, their learning style, and goals within the coding world. Through a series of nine questions it evaluates the users responses by assigning a corresponding value for each language to each response. Then through JavaScript it parses these values as numbers and adds the total together. Then by the dividing the difference between the lowest possible total and the highest possible total by three, it provides a result based on the input total according to three different ranges correllary to the high, middle, low of the individual inputs. 
 
 ***DISCLAIMER: very little to no science behind input correlations and the logic of results is vague at best.***
 
