@@ -9,28 +9,28 @@ $(document).ready(function() {
     const q5 = parseInt($('input[name="q5"]:checked').val());
     const q6 = parseInt($('input[name="q6"]:checked').val());
     const q7 = parseInt($('input[name="q7"]:checked').val());
-    const result = q1 + q2 + q3 + q4 + q5 + q6 + q7;
+    const q8 = parseInt($('input[name="q8"]:checked').val());
+    const q9 = parseInt($('input[name="q9"]:checked').val());
+    const result = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
 
-
-    if (result <= 7) {
+    if (result >= 9 && <= 15) {
       // show Python
       $("#python").show();
       $("#ruby").hide();
       $("#js").hide();
 
-    } else if (result > 7 && result <= 14) {
+    } else if (result > 16 && result <= 21) {
       // show Ruby
       $("#python").hide();
       $("#ruby").show();
       $("#js").hide();
 
-    } else if (result > 15 && result <= 21) {
+    } else if (result > 22 && result <= 27) {
       // show JavaScript
       $("#python").hide();
       $("#ruby").hide();
       $("#js").show();
     }
-  
 });
 })
 
