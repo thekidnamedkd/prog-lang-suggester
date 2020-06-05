@@ -1,12 +1,27 @@
 body {
   margin: 0px 0px 40px 0px;
 }
+img {
+  max-width: 150px;
+  height: auto;
+}
 
 .jumbotron h1 {
   color: teal;
   text-shadow: 2px 2px #000000;
 }
 
+.container {
+  width: 50%;
+}
+
+.quiz-column {
+  flex: 50%;
+}
+
+.result-column {
+  flex: 50%;
+}
 h4 {
   color: tomato;
 }

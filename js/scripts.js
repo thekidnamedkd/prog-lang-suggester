@@ -14,19 +14,16 @@ $(document).ready(function() {
     const result = quest1 + quest2 + quest3 + quest4 + quest5 + quest6 + quest7 + quest8 + quest9;
 
     if (result >= 9 && result <= 15) {
-      // show Python
       $("#python").show();
       $("#ruby").hide();
       $("#js").hide();
 
     } else if (result > 16 && result <= 21) {
-      // show Ruby
       $("#python").hide();
       $("#ruby").show();
       $("#js").hide();
 
     } else if (result > 22 && result <= 27) {
-      // show JavaScript
       $("#python").hide();
       $("#ruby").hide();
       $("#js").show();
