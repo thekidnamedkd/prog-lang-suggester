@@ -1,3 +1,16 @@
+body {
+  margin: 0px 0px 40px 0px;
+}
+
+.jumbotron h1 {
+  color: teal;
+  text-shadow: 2px 2px #000000;
+}
+
+h4 {
+  color: tomato;
+}
+
 #python {
   display: none;
 }
