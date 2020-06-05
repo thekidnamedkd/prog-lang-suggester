@@ -2,16 +2,16 @@ $(document).ready(function() {
   $("form#quiz").submit(function(event){
     event.preventDefault();
 
-    const q1 = parseInt($('input[name="q1"]:checked').val());
-    const q2 = parseInt($('input[name="q2"]:checked').val());
-    const q3 = parseInt($('input[name="q3"]:checked').val());
-    const q4 = parseInt($('input[name="q4"]:checked').val());
-    const q5 = parseInt($('input[name="q5"]:checked').val());
-    const q6 = parseInt($('input[name="q6"]:checked').val());
-    const q7 = parseInt($('input[name="q7"]:checked').val());
-    const q8 = parseInt($('input[name="q8"]:checked').val());
-    const q9 = parseInt($('input[name="q9"]:checked').val());
-    const result = q1 + q2 + q3 + q4 + q5 + q6 + q7 + q8 + q9;
+    const quest1 = parseInt($('input[name="q1"]:checked').val());
+    const quest2 = parseInt($('input[name="q2"]:checked').val());
+    const quest3 = parseInt($('input[name="q3"]:checked').val());
+    const quest4 = parseInt($('input[name="q4"]:checked').val());
+    const quest5 = parseInt($('input[name="q5"]:checked').val());
+    const quest6 = parseInt($('input[name="q6"]:checked').val());
+    const quest7 = parseInt($('input[name="q7"]:checked').val());
+    const quest8 = parseInt($('input[name="q8"]:checked').val());
+    const quest9 = parseInt($('input[name="q9"]:checked').val());
+    const result = quest1 + quest2 + quest3 + quest4 + quest5 + quest6 + quest7 + quest8 + quest9;
 
     if (result >= 9 && result <= 15) {
       // show Python
