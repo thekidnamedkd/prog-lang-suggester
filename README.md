@@ -43,3 +43,5 @@ _For maintainance and use questions please contact: Kevin Davis - thekidnamedkd@
 *MIT*
 
 Copyright (c) 2020 **_Kevin Davis_**
+
+![Macho Man Randy Savage](img/macho-man-randy-savage-1_crop_exact.jpg)
