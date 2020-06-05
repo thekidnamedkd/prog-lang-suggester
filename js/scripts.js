@@ -11,8 +11,12 @@ $(document).ready(function() {
     const q7 = parseInt($('input[name="q7"]:checked').val());
     const result = q1 + q2 + q3 + q4 + q5 + q6 + q7;
 
+
     if (result <= 7) {
       // show Python
+      $("#python").show();
+      $("#ruby").hide();
+      $("#js").hide();
 
     } else if (result > 7 && result <= 14) {
       // show Ruby
