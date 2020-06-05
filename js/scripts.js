@@ -20,9 +20,15 @@ $(document).ready(function() {
 
     } else if (result > 7 && result <= 14) {
       // show Ruby
+      $("#python").hide();
+      $("#ruby").show();
+      $("#js").hide();
 
     } else if (result > 15 && result <= 21) {
       // show JavaScript
+      $("#python").hide();
+      $("#ruby").hide();
+      $("#js").show();
     }
   
 });
