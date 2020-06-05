@@ -9,13 +9,9 @@ $(document).ready(function() {
     const q5 = parseInt($('input[name="q5"]:checked').val());
     const q6 = parseInt($('input[name="q6"]:checked').val());
     const q7 = parseInt($('input[name="q7"]:checked').val());
-
-    console.log(q1)
-    console.log(q2)
-    console.log(q3)
-    console.log(q4)
-    console.log(q5)
-    console.log(q6)
-    console.log(q7)
+    const result = q1 + q2 + q3 + q4 + q5 + q6 + q7;
+    return result;
+    console.log(result);
 });
 })
+
