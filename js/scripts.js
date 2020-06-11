@@ -18,12 +18,12 @@ $(document).ready(function() {
       $("#ruby").hide();
       $("#js").hide();
 
-    } else if (result > 16 && result <= 21) {
+    } else if (result >= 16 && result <= 21) {
       $("#python").hide();
       $("#ruby").show();
       $("#js").hide();
 
-    } else if (result > 22 && result <= 27) {
+    } else if (result >= 22 && result <= 27) {
       $("#python").hide();
       $("#ruby").hide();
       $("#js").show();
